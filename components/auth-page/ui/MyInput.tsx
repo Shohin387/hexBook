@@ -14,7 +14,16 @@ interface Input {
     typeInp: string
 }
 
-const Input: FC<Input> = ({placeholderInput, typeInp, setValue, classNameCnt, value, disable=false, name, classNameInp, animation=true}) => {
+const Input: FC<Input> = ({
+    placeholderInput, 
+    typeInp, 
+    setValue, 
+    classNameCnt, 
+    value, 
+    disable=false, 
+    name, 
+    classNameInp, 
+    animation=true}) => {
     const [placeholderClass, setPlaceholderClass] = useState("text-[rgb(201, 201, 201)] absolute mt-[3px] text-sm pointer-events-none ml-3")
     const [placeholderValue, setPlaceholderValue] = useState(placeholderInput)
 

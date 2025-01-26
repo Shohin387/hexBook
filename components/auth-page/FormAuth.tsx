@@ -23,7 +23,7 @@ export default function CreateProfile() {
                 
                 <input className="bg-secondary-theme border-none text-white h-7 rounded-sm cursor-pointer transition-transform duration-700 ease-out hover:scale-105 active:scale-100" type='reset' value="Зарегестрироватся" />
                 
-                <a className="no-underline text-xs mt-3" href="/login">Уже зарегестрированны?</a>
+                <a className="no-underline text-xs mt-3" href="/logIn">Уже зарегестрированны?</a>
             </form>
         
         </section>
